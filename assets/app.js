@@ -49,7 +49,7 @@ var topics = [ "elephant", "cat", "dog", "llama", "watermelon", "kanye"];
       var data = response.data;
   
       for (var i = 0; i < data.length; i++) {
-        let TopicDiv = $("<div class = 'topicDiv d-flex'>");
+        let TopicDiv = $("<div class = 'topicDiv'>");
         const Topic = $("<p>").text("Topic: " + topic + "---");
         const rating = data[i].rating;
         const pOne = $("<p>").text("Rating: " + rating);
